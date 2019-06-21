@@ -1,0 +1,101 @@
+.nav {
+    margin-top: 1%;
+    .logo {
+        width: 35%;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    margin: auto;
+    .nav-item {
+        margin-right: 25px;
+        a {
+            font-family: "Montserrat", sans-serif;
+            color: #706f6f;
+            text-transform: uppercase;
+            font-weight: 400;
+            &:hover {
+                color: #376ab3;
+                padding-bottom: 5px;
+                border-bottom: 3px solid #77bf4b;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.btnMenu {
+    display: none;
+}
+
+.overlayMenu {
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    z-index: 2;
+    background:#fff;
+    z-index: 99;
+    left: -9999px;
+    // top: -999px;
+    ul {
+        margin-top: 25%;
+    }
+    li {
+        list-style: none;
+        font-size: 40px;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 5%;
+        text-transform: uppercase;
+    }
+    li a {
+        color: #284d80;
+        text-decoration: none;
+       
+    }
+}
+
+.overlayMenu.active {
+    transition: left 0.4s ease-in-out;
+    left: 0;
+}
+
+// .btnMenu {
+//     position: relative;
+//     font-size: 25px;
+//     margin-right: 10%;
+//     margin-top: 50%;
+// }
+
+.menu_mobile {
+    margin: 0;
+}
+
+@media only screen and(max-width: 1010px) {
+    .logo {
+        margin-left: 50%;
+        display: flex;
+        transform: translateX(-50%);
+        // width: 50%;
+    }
+}
+
+@media only screen and(max-width: 780px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .btnMenu {
+        display: block;
+        font-size: 25px;
+        color: #284d80;
+    }
+}
+
+.position {
+    position: relative;
+    z-index: 9999;
+}

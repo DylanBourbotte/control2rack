@@ -1,0 +1,41 @@
+.mainfooter {
+    width: 100%;
+    height: auto;
+    background-color: #284d80;
+    padding-bottom: 2%;
+}
+
+.footer_logo {
+    margin-top: 5%;
+}
+
+.question {
+    margin-top: 15%;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #77bf4b;
+    span {
+        color: #fff;
+    }
+}
+
+.send {
+    background: #77bf4b;
+    border-color: #77bf4b;
+    margin-top: 1%;
+    margin-left: 53%;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 8%;
+    a {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+hr {
+    color: #77bf4b;
+    background-color: #77bf4b;
+}

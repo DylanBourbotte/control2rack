@@ -1,0 +1,130 @@
+// .whoiam {
+//     width: 96%;
+// }
+
+// .image_who {
+//     padding: 0;
+//     margin: 0;
+// }
+
+// .who {
+//     background-color: #77bf4b;
+// }
+
+// .quisomme {
+//     padding: 0;
+//     margin: 0;
+// }
+
+// .separateur_who {
+//     width: 80%;
+//     height: 20px;
+//     position: absolute;
+//     right: 24%;
+//     background-color: #386bb1;
+// }
+
+
+.who {
+    width: 100%;
+    height: auto;
+    background: #77bf4b;
+}
+
+.quisommenous {
+    margin: 0;
+}
+
+.image_who {
+    padding: 0;
+    // width: 100%;
+}
+
+.whoimg {
+    width: 94%;
+}
+
+.separateur_who {
+    width: 90%;
+     height: 20px;
+     position: absolute;
+     right: 22%;
+     background-color: #386bb1;
+}
+
+.who_title {
+    font-family: "Montserrat", sans-serif;
+    color: #2f577d;
+    position: relative;
+    right: 5%;
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.text_who {
+    // margin-top: 5%;
+    position: relative;
+    right: 5%;
+    .sub_title_who {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 1;
+        text-transform: uppercase;
+
+    }
+    .para_who {
+        // font-family: "Arial", sans-serif;
+        color: #fff;
+    }
+}
+
+
+
+.text_who_two {
+    margin-top: 22%;
+    position: relative;
+    .sub_title_who {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    .para_who {
+        // font-family: "Arial", sans-serif;
+        color: #fff;
+    }
+
+    .para_last {
+        position: absolute;
+        display: flex;
+    }
+}
+
+@media only screen and(max-width: 1010px) {
+    .whoimg {
+        width: 100%;
+    }
+
+    .text_who {
+        right: 0;
+        margin-top: 0;
+    }
+
+    .text_who_two {
+        right: 0;
+        margin-top: 5%;
+    }
+
+    .who_title {
+        right: 0;
+    }
+
+    .separateur_who {
+        right: 0;
+    }
+}

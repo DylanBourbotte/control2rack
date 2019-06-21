@@ -1,0 +1,19 @@
+@import 'header';
+@import 'home';
+@import "who";
+@import "contactwe";
+@import "actu";
+@import "footer";
+@import "row";
+@import 'formation';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}

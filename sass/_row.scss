@@ -1,0 +1,39 @@
+.home_page_row {
+    margin: 0;
+}
+
+.info_row {
+    margin: 0;
+}
+
+.info_first {
+    p {
+        width: 40%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5%;
+        font-family: "Montserrat", sans-serif;
+        color: #284d80;
+    }
+    h2 {
+        width: 40%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-family: "Montserrat", sans-serif;
+        color: #284d80;
+    }
+
+    .last {
+        margin-top: 0;
+    }
+}
+
+@media only screen and(max-width: 1010px) {
+    .info_first p {
+        width: 90%;
+    }
+
+    .info_first h2 {
+        width: 90%;
+    }
+}
