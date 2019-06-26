@@ -1,0 +1,29 @@
+.audit {
+    padding-bottom: 5%;
+}
+
+.audit_title, .audit_subtitle {
+    font-family: "Montserrat", sans-serif;
+    color: #284d80;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.audit_title {
+    margin-top: 5%;
+}
+
+.audit_icon {
+    margin-top: 5%;
+    p {
+        font-family: "Montserrat", sans-serif;
+        color: #284d80;
+        margin-top: 5%;
+        font-size: 18px;
+    }
+}
+
+.hoverText {
+    display: none;
+}

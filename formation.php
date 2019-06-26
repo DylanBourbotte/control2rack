@@ -56,6 +56,33 @@ include('includes/header.php');
                 <p>La gestion autonome</p>
                 <div class="text_grid_trois"><span>Former les intervenants, créer des procédures internes pour la gestion du risque et l’organisation de la maintenance dans le rayonnage à palettes.</span></div>
             </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModalCenter" class="buttonpdf"><span><i class="far fa-file-pdf"></i>Télécharger nos fiches-modules formation</span></a>
+            </div>
+            
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Il nous faut votre email..</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    <div class="modal-body">
+                        <form action="pdf.php" method='post'>
+                            <div class="form-group align-middle">
+                                <input class='form-control' type="email" name="email" placeholder="Adresse e-mail" required>
+                            </div>
+                    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <input type="submit" class="btn btn-primary" value="Télécharger">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
     </div>
 </section>
